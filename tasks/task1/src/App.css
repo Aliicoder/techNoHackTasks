@@ -1,0 +1,116 @@
+:root{
+  --out-line:
+  ;
+}
+.mainGrid{
+  outline: var(--out-line);
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  
+}
+.timerContainer{
+  outline: var(--out-line);
+  display: flex;
+  height: 400px;
+  place-self: center;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+background: #ffffff;
+box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
+}
+p{
+  outline: var(--out-line);
+  text-align: center;
+  margin: 0;
+  font-family: monospace;
+  color: #959494;
+  margin-bottom: 10px;
+}
+.setTimer{
+  outline: var(--out-line);
+  flex: 1 0 100px;
+  flex: 1 0 100px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.setTimerInput{
+  position: relative;
+}
+.setTimerInput:hover{
+  
+}
+.setTimerValue{
+  outline: var(--out-line);
+      display: flex;
+      text-align: center;
+      font-size: larger;
+      border: none;
+      height: 40px;
+      background: whitesmoke;
+      border-radius: 14px;
+}
+.label{
+  outline: var(--out-line);
+  font-family: cursive;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-wrap: nowrap;
+
+}
+.label:hover{
+  top: 0;
+  border-left-color: black;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: black;
+  border-right-style: solid;
+  border-right-width: 1px;
+  padding: 0 2px;
+}
+.timer{
+  outline: var(--out-line);
+  flex: 1 0 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clock{
+      outline: var(--out-line);
+      display: flex;
+      text-align: center;
+      font-size: larger;
+      border: none;
+      height: 40px;
+      background: whitesmoke;
+      border-radius: 14px;
+}
+.options{
+  flex: 0 1 100px;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+}
+button {
+  margin: 10px;
+  padding: 0.5em 2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  background: dodgerblue;
+  color: white;
+  border-radius: 4px;
+ }
+ in
+ button:hover {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+ }
+ 
+ button:active {
+  transform: translate(0em, 0.2em);
+ }
